@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1696880085497,
-  "index": "/remainder/index.html",
+  "timestamp": 1696883404599,
+  "index": "https://eeshkumar45.github.io/remainder/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/remainder/favicon.ico",
-        "/remainder/index.html",
-        "/remainder/main.66f59f9f1719eebb.js",
-        "/remainder/manifest.webmanifest",
-        "/remainder/polyfills.164e22b3d57c2bcc.js",
-        "/remainder/runtime.c957142c92c1dc58.js",
-        "/remainder/styles.ef46db3751d8e999.css"
+        "https://eeshkumar45.github.io/remainder/favicon.ico",
+        "https://eeshkumar45.github.io/remainder/index.html",
+        "https://eeshkumar45.github.io/remainder/main.66f59f9f1719eebb.js",
+        "https://eeshkumar45.github.io/remainder/manifest.webmanifest",
+        "https://eeshkumar45.github.io/remainder/polyfills.164e22b3d57c2bcc.js",
+        "https://eeshkumar45.github.io/remainder/runtime.c957142c92c1dc58.js",
+        "https://eeshkumar45.github.io/remainder/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/remainder/assets/icons/icon-128x128.png",
-        "/remainder/assets/icons/icon-144x144.png",
-        "/remainder/assets/icons/icon-152x152.png",
-        "/remainder/assets/icons/icon-192x192.png",
-        "/remainder/assets/icons/icon-384x384.png",
-        "/remainder/assets/icons/icon-512x512.png",
-        "/remainder/assets/icons/icon-72x72.png",
-        "/remainder/assets/icons/icon-96x96.png"
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-128x128.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-144x144.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-152x152.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-192x192.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-384x384.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-512x512.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-72x72.png",
+        "https://eeshkumar45.github.io/remainder/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/remainder/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/remainder/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/remainder/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/remainder/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/remainder/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/remainder/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/remainder/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/remainder/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/remainder/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/remainder/index.html": "48ee5807abfb8cb3f1e611c0ad08a69d96d9bc70",
-    "/remainder/main.66f59f9f1719eebb.js": "4b018bb814b6684539c83d9f2e0c5862b39fae9b",
-    "/remainder/manifest.webmanifest": "31f999e03923688c46474c8565240f1c7f49d8d3",
-    "/remainder/polyfills.164e22b3d57c2bcc.js": "0d6ee1828643355372fd11751c7eab19b6fdad51",
-    "/remainder/runtime.c957142c92c1dc58.js": "66ba59bd5a7b1ceba7c1cdc0378af945003b9292",
-    "/remainder/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://eeshkumar45.github.io/remainder/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://eeshkumar45.github.io/remainder/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://eeshkumar45.github.io/remainder/index.html": "6dcbe8dbfe0ab9e19eadca7db3ba641463f70fc8",
+    "https://eeshkumar45.github.io/remainder/main.66f59f9f1719eebb.js": "4b018bb814b6684539c83d9f2e0c5862b39fae9b",
+    "https://eeshkumar45.github.io/remainder/manifest.webmanifest": "31f999e03923688c46474c8565240f1c7f49d8d3",
+    "https://eeshkumar45.github.io/remainder/polyfills.164e22b3d57c2bcc.js": "0d6ee1828643355372fd11751c7eab19b6fdad51",
+    "https://eeshkumar45.github.io/remainder/runtime.c957142c92c1dc58.js": "66ba59bd5a7b1ceba7c1cdc0378af945003b9292",
+    "https://eeshkumar45.github.io/remainder/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
