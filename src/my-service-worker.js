@@ -1,13 +1,16 @@
 // self.addEventListener('install', (event)=>{
 // console.log('install')
 // });
-self.addEventListener('sync', (event) => {
+self.addEventListener('install', (event) => {
   // if (event.tag === 'notification-sync') {
     // setInterval(async () => {
     //   sendNotification()
     // }, 5000, 5000)
   // }
+  setInterval(()=>self.registration.showNotification('Notification from Service Worker'),5000)
+
 });
+setInterval(()=>self.registration.showNotification('Notification from Service Worker'),5000)
 
 // async function sendNotification() {
   // Create and display a notification

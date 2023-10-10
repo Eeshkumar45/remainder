@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1696963584157,
+  "timestamp": 1696964628259,
   "index": "https://eeshkumar45.github.io/remainder/index.html",
   "assetGroups": [
     {
@@ -56,7 +56,7 @@
     "https://eeshkumar45.github.io/remainder/index.html": "39283e814145349c1cfeebe7ac86bd78bd485ea0",
     "https://eeshkumar45.github.io/remainder/main.42841a9e884c50ca.js": "ecef31864d7ae4141599b73a7b98b05fa659a5fd",
     "https://eeshkumar45.github.io/remainder/manifest.webmanifest": "31f999e03923688c46474c8565240f1c7f49d8d3",
-    "https://eeshkumar45.github.io/remainder/my-service-worker.js": "deb6f4384d6455d28323ad7c05a9c2749199dd6f",
+    "https://eeshkumar45.github.io/remainder/my-service-worker.js": "8aba1fba5078210312ba46ff3dd928df17c5b123",
     "https://eeshkumar45.github.io/remainder/polyfills.164e22b3d57c2bcc.js": "0d6ee1828643355372fd11751c7eab19b6fdad51",
     "https://eeshkumar45.github.io/remainder/runtime.c957142c92c1dc58.js": "66ba59bd5a7b1ceba7c1cdc0378af945003b9292",
     "https://eeshkumar45.github.io/remainder/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
