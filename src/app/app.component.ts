@@ -43,6 +43,16 @@ export class AppComponent {
         }
       });
 
+      if ('serviceWorker' in navigator) {
+        try {
+          const registration = await navigator.serviceWorker.ready;
+          registration.active!.postMessage({ action: 'displayNotification' });
+
+        } catch (error) {
+          console.error('Error sending message to service worker:', error);
+        }
+      }
+
   }
 
   startNotification(){
