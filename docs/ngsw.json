@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1696952040267,
+  "timestamp": 1696962453823,
   "index": "https://eeshkumar45.github.io/remainder/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,9 @@
       "urls": [
         "https://eeshkumar45.github.io/remainder/favicon.ico",
         "https://eeshkumar45.github.io/remainder/index.html",
-        "https://eeshkumar45.github.io/remainder/main.b30fe386b948d3f6.js",
+        "https://eeshkumar45.github.io/remainder/main.f9474ca60541adcf.js",
         "https://eeshkumar45.github.io/remainder/manifest.webmanifest",
+        "https://eeshkumar45.github.io/remainder/my-service-worker.js",
         "https://eeshkumar45.github.io/remainder/polyfills.164e22b3d57c2bcc.js",
         "https://eeshkumar45.github.io/remainder/runtime.c957142c92c1dc58.js",
         "https://eeshkumar45.github.io/remainder/styles.ef46db3751d8e999.css"
@@ -52,9 +53,10 @@
     "https://eeshkumar45.github.io/remainder/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://eeshkumar45.github.io/remainder/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://eeshkumar45.github.io/remainder/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://eeshkumar45.github.io/remainder/index.html": "30a684a8db4f680ca3574aea1b5398d4b4c2d734",
-    "https://eeshkumar45.github.io/remainder/main.b30fe386b948d3f6.js": "0d95256fd296d4e34fd0d19a20063ac4d3ab6dbb",
+    "https://eeshkumar45.github.io/remainder/index.html": "6b4c46b75e1d26370cda268aed71193e57bc5749",
+    "https://eeshkumar45.github.io/remainder/main.f9474ca60541adcf.js": "69ecfd635ca0e9669b62f461e8228665a3a268d4",
     "https://eeshkumar45.github.io/remainder/manifest.webmanifest": "31f999e03923688c46474c8565240f1c7f49d8d3",
+    "https://eeshkumar45.github.io/remainder/my-service-worker.js": "1d3b7942008703263d34133dbcb456b11af3a9e4",
     "https://eeshkumar45.github.io/remainder/polyfills.164e22b3d57c2bcc.js": "0d6ee1828643355372fd11751c7eab19b6fdad51",
     "https://eeshkumar45.github.io/remainder/runtime.c957142c92c1dc58.js": "66ba59bd5a7b1ceba7c1cdc0378af945003b9292",
     "https://eeshkumar45.github.io/remainder/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"

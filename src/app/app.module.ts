@@ -19,7 +19,8 @@ import { FormsModule } from '@angular/forms';
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    ServiceWorkerModule.register('my-service-worker.js')
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,33 +7,14 @@ import { SwPush } from '@angular/service-worker';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'remainder';
   timeInterval!:number;
   notification!:Observable<number>;
   notificationSubscription!:Subscription;
 
-  ngOnInit(){
-    setInterval(() => {
-      console.log("start")
-      this.sendNotification();
-    }, 8000); // 1 minute interval
-  }
 
-  sendNotification() {
-    if ('Notification' in window) {
-      const notification = new Notification('My PWA Notification', {
-        body: 'This is your PWA notification!',
-      });
-
-      notification.onclick = () => {
-        // Handle notification click event here (e.g., navigate to a specific page)
-        console.log('Notification clicked');
-      };
-    }
-  }
-
-  requestNotificationPermission() {
+  async requestNotificationPermission() {
     if (Notification.permission !== 'granted') {
       Notification.requestPermission().then((permission) => {
         if (permission === 'granted') {
@@ -47,6 +28,21 @@ export class AppComponent implements OnInit {
         registration.showNotification('Permission granted');
       });
     }
+
+
+
+    navigator.serviceWorker.ready
+      .then(async (serviceWorkerRegistration) => {
+        // Periodically send notifications using Background Sync
+        const bgSync = serviceWorkerRegistration.sync;
+        try {
+          await bgSync.register('notification-sync');
+          console.log('Background Sync registered for notifications.');
+        } catch (error) {
+          console.error('Background Sync registration failed:', error);
+        }
+      });
+
   }
 
   startNotification(){
