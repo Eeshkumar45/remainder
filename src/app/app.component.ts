@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Observable, of , range, generate , from, interval, timer, Subscribable, Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,24 +8,38 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'remainder';
+  timeInterval!:number;
+  notification!:Observable<number>;
+  notificationSubscription!:Subscription;
 
   requestNotificationPermission() {
     if (Notification.permission !== 'granted') {
       Notification.requestPermission().then((permission) => {
         if (permission === 'granted') {
-          this.showNotification('Notification Title', 'Notification Body');
+          navigator.serviceWorker.ready.then(function (registration) {
+            registration.showNotification('Permission granted');
+          });
         }
       });
     } else {
-      this.showNotification('Notification Title', 'Notification Body');
+      navigator.serviceWorker.ready.then(function (registration) {
+        registration.showNotification('Permission granted');
+      });
     }
   }
 
-  // Function to display a notification
-  showNotification(title: string, body: string) {
-    const notification = new Notification(title, {
-      body: body,
+  startNotification(){
+    this.notification = interval(this.timeInterval);
+    this.notificationSubscription = this.notification.subscribe((d)=>{
+      console.log(d)
+      navigator.serviceWorker.ready.then(function (registration) {
+        registration.showNotification('Notification');
+      });
     });
+  }
+
+  stopNotification(){
+    this.notificationSubscription.unsubscribe();
   }
 
   fun() {
