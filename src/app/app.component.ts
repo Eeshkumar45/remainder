@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'remainder';
@@ -23,7 +23,18 @@ export class AppComponent {
   // Function to display a notification
   showNotification(title: string, body: string) {
     const notification = new Notification(title, {
-      body: body
+      body: body,
+    });
+  }
+
+  fun() {
+    navigator.serviceWorker.register('sw.js');
+    Notification.requestPermission(function (result) {
+      if (result === 'granted') {
+        navigator.serviceWorker.ready.then(function (registration) {
+          registration.showNotification('Notification with ServiceWorker');
+        });
+      }
     });
   }
 }
